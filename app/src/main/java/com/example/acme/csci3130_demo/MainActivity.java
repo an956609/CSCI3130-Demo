@@ -10,4 +10,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    
+    public void changeText(View v) {
+        TextView dst = (TextView) findViewById(R.id.textView2);
+        EditText src = (EditText) findViewById(R.id.editText);
+        dst.setText(src.getText().toString());
+    }
 }

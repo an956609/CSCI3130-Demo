@@ -23,6 +23,7 @@
         android:layout_marginBottom="60dp"
         android:elevation="0.1mm"
         android:text="@string/button"
+        android:onClick="changeText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
