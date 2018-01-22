@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     
+    /*
+        onClick Event handler for button that updates text in textView
+    */
     public void changeText(View v) {
         TextView dst = (TextView) findViewById(R.id.textView2);
         EditText src = (EditText) findViewById(R.id.editText);
