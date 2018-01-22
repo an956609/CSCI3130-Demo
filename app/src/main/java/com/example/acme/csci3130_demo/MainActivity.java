@@ -2,6 +2,8 @@ package com.example.acme.csci3130_demo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.*;
+import android.widget.*;
 
 public class MainActivity extends AppCompatActivity {
 
